@@ -1,0 +1,92 @@
+.home-page {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  
+  .video-background {
+    position: fixed; /* Fix it to the screen so it covers the entire background */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Set the width to 100% of the viewport width */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    object-fit: cover; /* Ensures the video covers the area without distortion */
+    z-index: -1; /* Place the video behind the content */
+    overflow: hidden;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    top: 40%;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px; /* Optional: Add rounded corners */
+  }
+  
+  nav a {
+    margin: 0 20px;
+    font-size: 1.5em;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-top: 10px; /* Reduce the space between content and form */
+    border-radius: 10px;
+    text-align: left;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form span {
+    color: blue;
+    cursor: pointer;
+  }
+  
+  /* Adjusting the Login/Register Button */
+button {
+    margin-top: 20px; /* Add space between the text and the button */
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

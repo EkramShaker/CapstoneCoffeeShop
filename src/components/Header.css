@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+.header img {
+  height: 50px;
+  cursor: pointer;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  background-color: #555;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form-header {
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure it's above everything */
+  width: 250px;
+}
+
+.login-form-header h2 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.login-form-header form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-header input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.login-form-header button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form-header p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.login-form-header span {
+  color: #333;
+  cursor: pointer;
+  text-decoration: underline;
+}
